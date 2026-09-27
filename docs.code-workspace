@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "docs"
+		},
+		{
+			"path": "public"
+		},
+		{
+			"path": "src"
+		},
+		{
+			"path": "supabase"
+		},
+		{
+			"path": "api"
+		}
+	],
+	"settings": {}
+}

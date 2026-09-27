@@ -1,0 +1,11 @@
+# GitHub Linguist Language Detection Configuration
+# Ensure repository is strictly detected as JavaScript, CSS, and HTML
+*.jsx linguist-language=JavaScript
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+*.html linguist-language=HTML
+
+# Non-code metadata
+*.json linguist-detectable=false
+*.sql linguist-detectable=false
+*.md linguist-documentation=true
