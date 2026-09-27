@@ -25,11 +25,6 @@ export const LandingPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <motion.div {...reveal} className="lg:col-span-6 space-y-7 text-center lg:text-left">
-              <div className="inline-flex items-center gap-2 rounded-full border border-[#C8702A]/20 bg-white/70 px-4 py-2 shadow-[0_14px_28px_rgba(26,58,92,0.08)] backdrop-blur-md text-[#1A3A5C] font-semibold text-xs uppercase tracking-[0.22em]">
-                <Sparkles className="w-3.5 h-3.5 text-[#C8702A]"/>
-                Team HEXANOVA 3.0
-              </div>
-
               <h1 className="font-display font-black text-4xl sm:text-5xl lg:text-6xl text-[#1A3A5C] leading-[0.95] tracking-tight">
                 {t('fromArtisanToMarket')}
                 <span className="mt-2 block text-transparent bg-clip-text bg-gradient-to-r from-[#C8702A] via-[#D7B36A] to-[#1A3A5C]">
